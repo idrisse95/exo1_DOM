@@ -12,13 +12,17 @@ var h1 = document.getElementsByTagName("h1");
 console.log(h1);
 
 // 2.
-var h3 = document.getElementsByTagName("h3");
+var h3 = document.getElementsByTagName("h3")[0];
 console.log(h3);
+var h3_b = document.getElementsByTagName("h3")[1];
+console.log(h3_b);
+var h3_c = document.getElementsByTagName("h3")[2];
+console.log(h3_c);
 
 // 3.
-var p = document.getElementsByTagName("p");
+var p = document.getElementsByTagName("p")[1];
 console.log(p);
 
 // 4.
-var li = document.getElementsByTagName("li");
-console.log(li[2]);
+var li = document.getElementsByTagName("li")[2];
+console.log(li);
